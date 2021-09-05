@@ -1,0 +1,46 @@
+.Button, .shopify-payment-button__button--unbranded, #shopify-product-reviews .spr-summary-actions-newreview, #shopify-product-reviews .spr-button-primary:not(input), #shopify-product-reviews input.spr-button-primary, #shopify-product-reviews .spr-pagination-prev>a, #shopify-product-reviews .spr-pagination-next>a {
+  &:before {
+    border-radius: 25px;
+  }
+}
+.display-table { display: table; table-layout: fixed; width: 100%; margin:0 !important;}
+.display-table-cell{ float: none; display: table-cell;  vertical-align: middle; padding:0;}
+.ad {
+    font-family: 'adorn-icons' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+/// Store Information
+.store-information {
+  @media only screen and (min-width: 767px) {
+    padding-top: 35px;
+    padding-bottom: 35px;
+  }
+  @media only screen and (max-width: 766px) {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .page-width {
+    margin: 0 auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    max-width: 100%;
+  }
+}
+.store-info { 
+  h5 { margin-bottom:5px; text-transform:uppercase; letter-spacing:0.08em; font-size:16px; font-weight:600; }
+  .ad { margin-right:15px; font-size:40px; vertical-align:middle; display:block; margin-bottom:20px; }
+  li { padding:0 20px; text-align:center; }
+  li+li {border-left:1px dotted #ddd;}  
+  @media only screen and (max-width: 766px) {
+    li { display:block; padding:10px; border:0 !important;
+      .ad { margin:0 0 8px 0; font-size:25px;}
+    }
+  }
+}
